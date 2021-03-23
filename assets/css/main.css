@@ -28,7 +28,7 @@ body {
 
 .card {
 	background: #2C2C2B;
-	border-radius: 7px;
+	border-radius: 11px;
 	padding: 13px;
 	display: flex;
 	flex-direction: row;

@@ -1,0 +1,100 @@
+html {
+  background-color: #131415;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	color: #fff;
+}
+
+body {
+	margin: 0;
+}
+
+.text-name {
+	font-weight: 600;
+	font-size: 13.5px;
+	line-height: 18px;
+	
+}
+
+.text-role {
+	font-family: 'Oxygen Mono', monospace;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 17px;
+	color: #919191;
+}
+
+.card {
+	background: #2C2C2B;
+	border-radius: 7px;
+	padding: 13px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
+	margin-bottom: 24px;
+}
+
+.card-icon {
+	width: 58px;
+	height: 58px;
+	background: #333333;
+	border-radius: 11px;
+	color: #F1BA2F;
+}
+
+.icon {
+	width: 31px;
+	height: 31px;
+
+	padding: 13px;
+}
+
+.card-text {
+	padding-top: 19px;
+	padding-bottom: 19px;
+	padding-left: 23px;
+	padding-right: 23px;
+}
+
+.card-title {
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.card-body {
+	font-size: 11.75px;
+	line-height: 16px;
+	color: #949494;
+}
+
+
+.center {
+	margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+@media (min-width: 768px) {
+	.vertical-center {
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}
+}
+
+@media (max-width: 767px) {
+	.vertical-center {
+		margin-bottom: 2rem;
+		margin-top: 2rem;
+	}
+}

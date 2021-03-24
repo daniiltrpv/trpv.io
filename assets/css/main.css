@@ -12,7 +12,14 @@ body {
 
 a {
 	text-decoration: none;
+	color: #F1BA2F;
 }
+
+a:visited {
+	text-decoration: none;
+	color: #F1BA2F;
+}
+
 
 .text-name {
 	font-weight: 600;

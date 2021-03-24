@@ -50,8 +50,16 @@ body {
 .icon {
 	width: 31px;
 	height: 31px;
-
 	padding: 13px;
+}
+
+.icon-sm {
+	width: 14px;
+	color: white;
+}
+
+.icon-margin {
+	margin-right: 14px;
 }
 
 .card-text {
@@ -72,7 +80,6 @@ body {
 	color: #949494;
 }
 
-
 .center {
 	margin: 0;
   position: absolute;
@@ -90,6 +97,7 @@ body {
 		-ms-transform: translateY(-50%);
 		transform: translateY(-50%);
 	}
+	
 }
 
 @media (max-width: 767px) {

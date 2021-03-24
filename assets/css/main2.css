@@ -1,0 +1,136 @@
+html {
+    background-color: #131415;
+      font-family: 'Open Sans', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      color: #fff;
+      
+  }
+  
+  body {
+      margin: 0;
+  }
+  
+  a {
+      color: #F1BA2F;
+  }
+
+  p {
+      color: #d4d4d4;
+  }
+  
+  .text-name {
+      font-weight: 600;
+      font-size: 0.844rem;
+      line-height: 1.125rem;
+      
+  }
+  
+  .text-role {
+      font-family: 'Oxygen Mono', monospace;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 0.813rem;
+      line-height: 1.063rem;
+      color: #919191;
+  }
+  
+  .card {
+      background: #2C2C2B;
+      border-radius: 0.688rem;
+      padding: 0.813rem;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      align-items: center;
+      align-content: stretch;
+      margin-bottom: 1.5rem;
+      text-decoration: none;
+
+  
+  }
+  
+  .card-icon {
+      width: 3.625rem;
+      height: 3.625rem;
+      background: #333333;
+      border-radius: 0.438rem;
+      color: #F1BA2F;
+  }
+  
+  .icon {
+      width: 1.938rem;
+      height: 1.938rem;
+      padding: 0.813rem;
+      color: #F1BA2F;
+  }
+  
+  .icon-sm {
+      width: 0.875rem;
+      color: white;
+  }
+  
+  .icon-margin {
+      margin-right: 0.875rem;
+  }
+  
+  .card-text {
+      padding-top: 0.813rem;
+      padding-bottom: 0.813rem;
+      padding-left: 1.188rem;
+      padding-right: 1.188rem;
+  }
+  
+  .card-title {
+      font-size: 0.75rem;
+      line-height: 1rem;
+      color: #fff;
+  }
+  
+  .card-body {
+      font-size: 0.734rem;
+      line-height: 1rem;
+      color: #949494;
+  }
+  
+  
+  
+  .center {
+      margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  @media (min-width: 768px) {
+      .vertical-center {
+          margin: 0;
+          position: absolute;
+          top: 50%;
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+      }
+  
+      .social-links {
+          margin-top: 2.75rem;
+      }
+
+      html {
+        font-size: 120%;
+      }
+      
+  }
+  
+  @media (max-width: 767px) {
+      .vertical-center {
+          margin-bottom: 1rem;
+          margin-top: 1rem;
+      }
+  
+      .social-links {
+          margin-top: 1.375rem!important;
+      }
+  }

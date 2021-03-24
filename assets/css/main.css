@@ -116,6 +116,10 @@ a:visited {
 	.social-links {
 		margin-top: 44px;
 	}
+
+	html {
+		font-size: 120%;
+	}
 	
 }
 

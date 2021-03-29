@@ -21,6 +21,14 @@ a:visited {
 	color: #F1BA2F;
 }
 
+sub {
+	font-size : 14px;
+	color: #919191;
+}
+
+.img-inline {
+	margin-bottom: 1rem;
+}
 
 .text-name {
 	font-weight: 600;

@@ -30,6 +30,12 @@ sub {
 	margin-bottom: 1rem;
 }
 
+.highlight {
+	background-color: #F1BA2F;
+	color: #131415!important;
+	border-radius: 5px;
+}
+
 .text-name {
 	font-weight: 600;
 	font-size: 16px;

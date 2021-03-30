@@ -150,3 +150,9 @@ sub {
 		display: none;
 	}
 }
+
+@media (max-width: 470px) {
+	.hide-sm {
+		display: none;
+	}
+}

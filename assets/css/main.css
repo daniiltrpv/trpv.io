@@ -184,12 +184,12 @@
 	
 	a {
 		text-decoration: none;
-		color: #F1BA2F;
+		color: #007aff;
 	}
 	
 	a:visited {
 		text-decoration: none;
-		color: #F1BA2F;
+		color: #007aff;
 	}
 	
 	sub {
@@ -214,7 +214,7 @@
 	}
 	
 	.highlight {
-		background-color: #F1BA2F;
+		background-color: #007aff;
 		color: #131415!important;
 		border-radius: 5px;
 	}

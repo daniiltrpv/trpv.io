@@ -24,6 +24,7 @@ a:visited {
 sub {
     font-size: 14px;
     color: #919191;
+	margin-top: 0.25rem;
 }
 
 .feather {
@@ -151,6 +152,10 @@ sub {
     .social-links {
         margin-top: 22px!important;
     }
+
+	h1 {
+		font-size: 1.5rem;
+	}
 }
 
 @media (max-width: 370px) {

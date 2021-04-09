@@ -11,14 +11,30 @@ body {
     margin: 0;
 }
 
+.blog {
+    font-family: 'Lora', serif;
+}
+
 a {
     text-decoration: none;
     color: #F1BA2F;
+    
 }
 
 a:visited {
     text-decoration: none;
     color: #F1BA2F;
+}
+
+.text-link {
+    color:#fff;
+    text-decoration: underline 3px #F1BA2F;
+    font-style: italic;
+}
+
+.text-link:visited {
+    color: #fff;
+    text-decoration: underline 3px #c78f00;
 }
 
 sub {
@@ -30,7 +46,17 @@ sub {
 .quote {
     background-color: #2C2C2B;
     border-left: 5px solid #F1BA2F;
+    padding: 0.75rem 1.5rem;
 }
+
+.quote-test {
+
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
 
 .feather {
     width: 24px;

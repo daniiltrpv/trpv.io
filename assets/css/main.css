@@ -24,6 +24,12 @@ a:visited {
 sub {
     font-size: 14px;
     color: #919191;
+    margin-bottom: 0.75rem;
+}
+
+.quote {
+    background-color: #2C2C2B;
+    border-left: 5px solid #F1BA2F;
 }
 
 .feather {
@@ -189,6 +195,11 @@ sub {
 		background-color: #007aff;
 		color: #131415!important;
 	}
+
+    .quote {
+        background-color: #efefef;
+        border-left: 5px solid #007aff
+    }
 	
 	.card {
 		background: #fff;

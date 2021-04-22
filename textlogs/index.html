@@ -12,9 +12,16 @@
 		body {background-color: black; color: lightgray; font-family: 'IBM Plex Mono', monospace; font-size: small;}
 		.a{color: yellow}
 		.b{color: violet}
+		.c{color: gray}
 	</style>
 </head>
 <body>
+	<p class="c">API for texts between 203-403-0972 and 203-615-1722. Last fetched <span id="datetime"></span>.</p>
+	<script>
+	var dt = new Date();
+	document.getElementById("datetime").innerHTML = ((dt.getFullYear()) +"-"+ (("0"+(dt.getMonth()+1)).slice(-2)) +"-"+ ("0"+dt.getDate()).slice(-2)) +" "+ (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2) +":"+ (("0"+dt.getSeconds()).slice(-2)));
+	</script>
+
 	<strong>Apr 21 13:32</strong> <em><span class="a">203-403-0972:</span> 7 days</em><br>
 	<strong>Apr 21 14:10</strong> <em><span class="b">203-615-1722:</span> Who is this?</em><br>
 	<strong>Apr 21 13:32</strong> <em><span class="a">203-403-0972:</span> 6 days</em><br>

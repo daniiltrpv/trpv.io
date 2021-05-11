@@ -18,7 +18,7 @@ body {
 a {
     text-decoration: none;
     color: #F1BA2F;
-    
+
 }
 
 a:visited {
@@ -173,6 +173,10 @@ sub {
     .social-links {
         margin-top: 44px;
     }
+
+    .card {
+        width: 100%;
+    }
 }
 
 @media (max-width: 767px) {
@@ -201,22 +205,22 @@ sub {
     }
 }
 
-  
+
   @media (prefers-color-scheme: light) {
 	html {
 		background-color: #fff;
 		color: #000;
 	}
 
-	
+
 	a {
 		color: #007aff;
 	}
-	
+
 	a:visited {
 		color: #007aff;
 	}
-	
+
 	.highlight {
 		background-color: #007aff;
 		color: #131415!important;
@@ -226,33 +230,33 @@ sub {
         background-color: #efefef;
         border-left: 5px solid #007aff
     }
-	
+
 	.card {
 		background: #fff;
 		box-shadow: #efefef 0px 2px 10px;
 		border: #efefef solid 1px;
 	}
-	
+
 	.card-icon-container {
 		background-color: #fafafa;
 		border: #efefef solid 1px;
 	}
-	
+
 	.card-icon {
 		stroke: #007aff;
 	}
-	
+
 	.icon-sm {
 		stroke: black;
 	}
-	
+
 	.card-title {
 		color: black;
 	}
-	
+
 	.card-body {
 		color: #949494;
 	}
-	
-	
+
+
   }

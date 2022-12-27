@@ -1,0 +1,273 @@
+html {
+    background-color: #131415;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #fff;
+    font-size: 120%;
+}
+
+body {
+    margin: 0;
+}
+
+.blog {
+    font-family: 'Lora', serif;
+}
+
+a {
+    text-decoration: none;
+    color: #F1BA2F;
+
+}
+
+a:visited {
+    text-decoration: none;
+    color: #F1BA2F;
+}
+
+.text-link {
+    color:#fff;
+    text-decoration: underline 3px #F1BA2F;
+    font-style: italic;
+}
+
+.text-link:visited {
+    color: #fff;
+    text-decoration: underline 3px #c78f00;
+}
+
+sub {
+    font-size: 14px;
+    color: #919191;
+    margin-bottom: 0.75rem;
+}
+
+.quote {
+    background-color: #2C2C2B;
+    border-left: 5px solid #F1BA2F;
+    padding: 0.75rem 1.5rem;
+}
+
+.quote-test {
+
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+
+.feather {
+    width: 24px;
+    height: 24px;
+    stroke: currentColor;
+    stroke-width: 1;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+}
+
+.img-inline {
+    margin-bottom: 0.25rem;
+    width: 100%;
+    height: auto!important;
+}
+
+.highlight {
+    background-color: #F1BA2F;
+    color: #131415!important;
+    border-radius: 5px;
+}
+
+.text-name {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.text-role {
+    font-family: 'Oxygen Mono', monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #919191;
+}
+
+.card {
+    background: #2C2C2B;
+    border-radius: 11px;
+    padding: 13px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+    margin-bottom: 24px;
+}
+
+.card-icon-container {
+    width: 58px;
+    height: 58px;
+    background: #333333;
+    border-radius: 7px;
+}
+
+.card-icon {
+    width: 31px;
+    height: 31px;
+    padding: 13px;
+    stroke: #F1BA2F;
+    stroke-width: 1.5;
+}
+
+.icon-sm {
+    width: 18px!important;
+    height: 18px!important;
+    stroke: white;
+    stroke-width: 2px;
+}
+
+.icon-margin {
+    margin-right: 14px;
+}
+
+.card-text {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 19px;
+    padding-right: 19px;
+}
+
+.card-title {
+    font-size: 14px;
+    line-height: 22px;
+    color: #fff;
+}
+
+.card-body {
+    font-size: 12px;
+    line-height: 20px;
+    color: #949494;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+@media (min-width: 768px) {
+    .vertical-center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .social-links {
+        margin-top: 44px;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .vertical-center {
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    .social-links {
+        margin-top: 22px!important;
+    }
+
+	h1 {
+		font-size: 1.5rem;
+	}
+}
+
+@media (max-width: 370px) {
+    .hide-xs {
+        display: none;
+    }
+}
+
+@media (max-width: 470px) {
+    .hide-sm {
+        display: none;
+    }
+}
+
+
+  @media (prefers-color-scheme: light) {
+	html {
+		background-color: #fff;
+		color: #000;
+	}
+
+
+	a {
+		color: #007aff;
+	}
+
+	a:visited {
+		color: #007aff;
+	}
+
+    .text-link {
+        color:#000;
+        text-decoration: underline 3px #007aff!important;
+        font-style: italic;
+    }
+    
+    .text-link:visited {
+        color: #000;
+        text-decoration: underline 3px #007aff!important;
+    }
+
+	.highlight {
+		background-color: #007aff;
+		color: #131415!important;
+	}
+
+    .quote {
+        background-color: #efefef;
+        border-left: 5px solid #007aff
+    }
+
+	.card {
+		background: #fff;
+		box-shadow: #efefef 0px 2px 10px;
+		border: #efefef solid 1px;
+	}
+
+	.card-icon-container {
+		background-color: #fafafa;
+		border: #efefef solid 1px;
+	}
+
+	.card-icon {
+		stroke: #007aff;
+	}
+
+	.icon-sm {
+		stroke: black;
+	}
+
+	.card-title {
+		color: black;
+	}
+
+	.card-body {
+		color: #949494;
+	}
+
+
+  }
